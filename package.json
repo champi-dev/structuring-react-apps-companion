@@ -28,6 +28,11 @@
       }
     }
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -55,6 +60,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.3",
     "typescript": "^3.8.3"
   }
 }
