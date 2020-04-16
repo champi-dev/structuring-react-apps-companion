@@ -7,5 +7,6 @@
   "eslint.validate": [
     "javascript",
     "javascriptreact"
-  ]
+  ],
+  "workbench.sideBar.location": "right"
 }
