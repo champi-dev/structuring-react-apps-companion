@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	src: url("../fonts/Roboto-Black.ttf") format("ttf"),
+  url("../fonts/Roboto-BlackItalic.ttf") format("ttf"),
+  url("../fonts/Roboto-Bold.ttf") format("ttf"),
+  url("../fonts/Roboto-BoldItalic.ttf") format("ttf"),
+  url("../fonts/Roboto-Italic.ttf") format("ttf"),
+  url("../fonts/Roboto-Light.ttf") format("ttf"),
+  url("../fonts/Roboto-LightItalic.ttf") format("ttf"),
+  url("../fonts/Roboto-Medium.ttf") format("ttf"),
+  url("../fonts/Roboto-MediumItalic.ttf") format("ttf"),
+  url("../fonts/Roboto-Regular.ttf") format("ttf"),
+  url("../fonts/Roboto-Thin.ttf") format("ttf"),
+  url("../fonts/Roboto-ThinItalic.ttf") format("ttf");
+}
+
+h1, h2, h3, h4, p {
+  margin: unset;
+}
+
+p, label, span, button {
+  font-size: inherit;
+  font-weight: inherit;
+}

@@ -4,17 +4,22 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom'
+import styled from 'styled-components'
 import UIGuide from 'containers/UIGuide'
 
-function App () {
+const App = styled.div`
+  display: flex;
+  height: 100vh;
+  overflow-y: auto;  
+`
+
+export default function () {
   return (
-    <div className="App">
+    <App>
       <Switch>
         <Route path="/" exact component={UIGuide} />
         <Redirect to="/" />
       </Switch>
-    </div>
+    </App>
   )
 }
-
-export default App
